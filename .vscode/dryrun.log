@@ -1,0 +1,13 @@
+make run --dry-run --keep-going --print-directory
+make: Entering directory '/home/martin/datos/git/sandbox/rpi-baremetal-asm'
+ 
+rm kernel8.elf kernel8.img *.o >/dev/null 2>/dev/null || true
+ 
+aarch64-linux-gnu-ld -nostdlib app.o start.o delays.o lfb.o main.o mbox.o uart.o -T link.ld -o kernel8.elf
+ 
+aarch64-linux-gnu-objcopy -O binary kernel8.elf kernel8.img
+ 
+qemu-system-aarch64 -M raspi3 -kernel kernel8.img -serial stdio
+ 
+make: Leaving directory '/home/martin/datos/git/sandbox/rpi-baremetal-asm'
+ 

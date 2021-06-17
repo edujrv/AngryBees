@@ -1,0 +1,448 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+ 
+# Built for x86_64-pc-linux-gnu
+ 
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+ 
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+ 
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+ 
+# Make data base, printed on Thu Jun 10 10:02:25 2021
+ 
+
+# Variables
+ 
+
+ 
+# environment
+ 
+JAVA_HOME = /etc/java-config-2/current-system-vm
+ 
+# environment
+ 
+GDK_BACKEND = x11
+ 
+# environment
+ 
+LC_ALL = C
+ 
+# environment
+ 
+NO_AT_BRIDGE = 1
+ 
+# environment
+ 
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/martin/.gtkrc:/home/martin/.config/gtkrc
+ 
+# environment
+ 
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-54a69fc3-6578-4252-b5fc-08639dbd9cbf.sock
+ 
+# environment
+ 
+VSCODE_CWD = /home/martin
+ 
+# environment
+ 
+UBUNTU_MENUPROXY = 1
+ 
+# environment
+ 
+GCC_SPECS = 
+ 
+# default
+ 
+MAKE_COMMAND := make
+ 
+# automatic
+ 
+@D = $(patsubst %/,%,$(dir $@))
+ 
+# environment
+ 
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+ 
+# default
+.VARIABLES := 
+# environment
+PWD = /home/martin/datos/git/sandbox/rpi-baremetal-asm
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/mail/martin
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share
+# environment
+OLDPWD = /home/martin
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+SSH_ASKPASS = /usr/bin/ksshaskpass
+# environment
+LANG = C
+# environment
+XAUTHORITY = /tmp/xauth-1000-_0
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile (from 'Makefile', line 29)
+ASM_OBJS = $(ASM_SRCS:.S=.o)
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/martin/datos/git/sandbox/rpi-baremetal-asm
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = |lesspipe %s
+# makefile (from 'Makefile', line 26)
+SRCS = $(wildcard *.c)
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=2589fd52-c427-4ceb-93b0-f1208af546ab&iid=2589fd52-c427-4ceb-93b0-f1208af546ab&sid=2589fd52-c427-4ceb-93b0-f1208af546ab","uploadToServer":true}
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+LV2_PATH = /usr/lib64/lv2
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 1383368
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+MANPAGER = manpager
+# environment
+SESSION_MANAGER = local/tachikoma:@/tmp/.ICE-unix/846,unix/tachikoma:/tmp/.ICE-unix/846
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/11.1.0/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.36.1/man:/etc/java-config-2/current-system-vm/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/12/share/man
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/martin/.config/Code/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 28)
+OBJS = $(SRCS:.c=.o)
+# environment
+INFOPATH = /usr/share/gcc-data/x86_64-pc-linux-gnu/11.1.0/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.36.1/info:/usr/share/info
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/12/bin
+# environment
+MOZ_GMP_PATH = /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 27)
+ASM_SRCS = $(wildcard *.S)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+GSETTINGS_BACKEND = dconf
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+JAVAC = /etc/java-config-2/current-system-vm/bin/javac
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+LESS = -R -M --shift 5
+# environment
+DESKTOP_SESSION = /usr/share/xsessions/plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = martin
+# environment
+VBOX_APP_HOME = /usr/lib64/virtualbox
+# environment
+CONFIG_PROTECT_MASK = /etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf
+# environment
+CONFIG_PROTECT = /usr/share/gnupg/qualified.txt /usr/share/config
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+EDITOR = /bin/nano
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module:appmenu-gtk-module
+# environment
+USER = martin
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+PAGER = /usr/bin/less
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /home/martin/.config/Code/CachedData/054a9295330880ed74ceaedda236253b4f39a335
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 30)
+CFLAGS = -Wall -O2 -ffreestanding -fno-stack-protector -nostdinc -nostdlib -nostartfiles
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/martin/.gtkrc-2.0:/home/martin/.config/gtkrc-2.0
+# environment
+HOME = /home/martin
+# environment
+JDK_HOME = /etc/java-config-2/current-system-vm
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANT_HOME = /usr/share/ant
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6379ee7e-1.56.2-main.sock
+# environment
+XDG_SESSION_ID = 1
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+KDE_FULL_SESSION = true
+ 
+# variable set hash-table stats:
+# Load=123/1024=12%, Rehash=0, Collisions=10/158=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 28926309): 29 files, no impossibilities.
+
+# 29 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.S
+#  recipe to execute (from 'Makefile', line 35):
+	aarch64-linux-gnu-gcc $(CFLAGS) -c $< -o $@
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 38):
+	aarch64-linux-gnu-gcc $(CFLAGS) -c $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+mbox.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-10 10:01:07.674125149
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+delays.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := clean
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 45):
+	rm kernel8.elf kernel8.img *.o >/dev/null 2>/dev/null || true
+
+# Not a target:
+uart.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: clean kernel8.img
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+	qemu-system-aarch64 -M raspi3 -kernel kernel8.img -serial stdio
+
+# Not a target:
+start.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lfb.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+kernel8.img: app.o start.o delays.o lfb.o main.o mbox.o uart.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+	aarch64-linux-gnu-ld -nostdlib $(ASM_OBJS) $(OBJS) -T link.ld -o kernel8.elf
+	aarch64-linux-gnu-objcopy -O binary kernel8.elf kernel8.img
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+app.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/38=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 39 / storage = 280 B / avg = 7 B
+# current buf: size = 8162 B / used = 280 B / count = 39 / avg = 7 B
+
+# strcache performance: lookups = 60 / hit rate = 35%
+# hash-table stats:
+# Load=39/8192=0%, Rehash=0, Collisions=0/60=0%
+# Finished Make data base on Thu Jun 10 10:02:25 2021
+
+ 
